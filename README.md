@@ -1,0 +1,2 @@
+# scipy_linear_sum_assignment_issue
+scipy.optimize.linear_sum_assignment issue
