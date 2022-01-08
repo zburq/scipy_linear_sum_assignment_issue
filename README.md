@@ -7,4 +7,6 @@ The idea is to apply `scipy.optimizes.linear_sum_assignment` function to match e
 
 If `S` is small, this gives the correct non-bipartite matching and I get matched pairs that are exhaustive. 
 
-But for large `S`, I start to see some matched `n`-tuples (`n` > 2).
+But for large `S`, I start to see some matched `n`-tuples (`n > 2`).
+
+`scipy.sparse.csgraph.min_weight_full_bipartite_matching` has the same problem.
